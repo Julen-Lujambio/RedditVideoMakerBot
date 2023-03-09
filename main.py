@@ -8,7 +8,7 @@ from subprocess import Popen
 
 from prawcore import ResponseException
 
-from reddit.subreddit import get_subreddit_threads
+from reddit1.subreddit import get_subreddit_threads
 from utils import settings
 from utils.cleanup import cleanup
 from utils.console import print_markdown, print_step
